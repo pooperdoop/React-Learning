@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  color: rgb(255, 255, 255) !important;
+}
+
+section{
+  height: 100vh !important;
+  width: 100% !important;
+  position: relative;
+}
+
+.basics{
+  background-color: rgb(228, 154, 154);
+}
+
+.props{
+  background-color: rgb(196, 228, 154);
+}
+
+.title{
+  color: white !important;
+}
+.useStateCont{
+  background-color: rgb(196, 228, 154);
+}
+
+.counter{
+  width: auto;
+  padding: 10px;
+  font-size: clamp(1rem, -1.5rem + 8vw, 10rem);
+  background: white;
+  border: 10px black solid;
+  border-radius: 20px;
+} 
+
+.counterButton{
+  width: 25%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: grey;
+  transition: all 0.5s ease;
+}
+
+.counterButton:hover{
+  background-color: azure;
+}
+
+.sectionTitle{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.sectionTitle1{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+

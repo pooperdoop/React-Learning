@@ -9,7 +9,7 @@ function Props(props){
 
     return(
         <section className=" w-100 d-flex justify-content-center align-items-center props components" id="basics">
-        <h1 className="sectionTitle">useState / Props / React-Bootstrap</h1>
+        <h1 className="sectionTitle">useState / Props / React-Bootstrap/ onChange</h1>
 
         <div className="card bg-info">
             <img style={{height: "400px"}} src={props.imgSrc} className="card-img-top img" alt="Enter a URL of an Image" />

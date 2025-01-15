@@ -68,4 +68,22 @@ section{
   left: 10px;
 }
 
+.init{
+  height: 100vh;
+}
+
+
+.sectionButton1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.sectionButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
 

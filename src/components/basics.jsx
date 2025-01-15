@@ -1,3 +1,4 @@
+import peng from '../assets/images.js/peng.png'
 
 function Card(){
     return(
@@ -5,7 +6,7 @@ function Card(){
             <h1 className="sectionTitle sectionTitle1">JSX importing / Bootstrap</h1>
 
             <div className="card bg-info">
-                <img src="./peng.png" className="card-img-top" alt="cardImg" />
+                <img src={peng} className="card-img-top" alt="cardImg" />
                 <div className="card-body">
                     <hr />
                     <h3 className="card-title">Basic Bootstrap Card</h3>
